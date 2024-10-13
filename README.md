@@ -1,6 +1,6 @@
-# Legal Document QA System
+# Basic RAG pipeline with Langchain
 
-This project is a Legal Document Question-Answering system using Langchain and OpenAI with ChromaDB for vector storage.
+This project is a Legal Document Question-Answering system using Langchain and OpenAI with ChromaDB for vector storage. 
 
 ## Table of Contents
 - [Features](#features)
