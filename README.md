@@ -1,6 +1,6 @@
 # Legal Document QA System
 
-This project is a Legal Document Question-Answering system that uses natural language processing and machine learning to answer questions based on a corpus of legal documents.
+This project is a Legal Document Question-Answering system using Langchain and OpenAI with ChromaDB for vector storage.
 
 ## Table of Contents
 - [Features](#features)
