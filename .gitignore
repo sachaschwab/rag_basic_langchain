@@ -7,7 +7,6 @@ chroma_db/
 # Documents
 documents/
 
-
 # Virtual environment
 .venv/
 
@@ -148,4 +147,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/chroma_db/
-documents/
