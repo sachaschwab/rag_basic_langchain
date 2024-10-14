@@ -1,4 +1,4 @@
-# Basic RAG pipeline and App with Langchain and Streamlit
+# Basic RAG pipeline and chat App with Langchain and Streamlit
 
 The aim of this project is to have a basic AI RAG chatbot and the possibility to test versions of system messages (pre-prompts) and ChatGPT models.
 
@@ -33,7 +33,9 @@ The aim of this project is to have a basic AI RAG chatbot and the possibility to
    ```
 3. Choose whether to load documents newly or use an existing vector store.
 4. Open the app: 
-   ```streamlit run app.py```
+   ```bash
+   streamlit run app.py
+   ```
 
 Happy chatting!
 
