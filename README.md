@@ -1,6 +1,6 @@
-# Basic RAG pipeline with Langchain
+# Basic RAG pipeline and App with Langchain and Streamlit
 
-This project is a Legal Document Question-Answering system using Langchain and OpenAI with ChromaDB for vector storage. 
+The aim of this project is to have a basic AI RAG chatbot and the possibility to test versions of system messages (pre-prompts) and ChatGPT models.
 
 ## Table of Contents
 - [Features](#features)
@@ -21,7 +21,7 @@ This project is a Legal Document Question-Answering system using Langchain and O
 1. Clone the repository
 2. Install the required dependencies:
    ```bash
-   pip install langchain chromadb openai tiktoken unstructured
+   pip install langchain chromadb openai tiktoken unstructured streamlit
    ```
 3. Set up your OpenAI API key as an environment variable or be prepared to enter it when prompted.
 
@@ -32,9 +32,10 @@ This project is a Legal Document Question-Answering system using Langchain and O
    python main.py
    ```
 3. Choose whether to load documents newly or use an existing vector store.
-4. Enter your legal question when prompted.
+4. Open the app: 
+   ```streamlit run app.py```
 
-Example usage:
+Happy chatting!
 
 ## Contributing
 Contributions to improve the project are welcome. Please follow these steps:
