@@ -16,25 +16,14 @@ def main():
     st.sidebar.header("Configuration")
     
     # Prompt template input
-    default_prompt = """You are an AI assistant that helps users to find information from the provided documents. 
+    default_prompt = """System message here, e.g. "You are an AI assistant that helps users to find information from the provided documents. 
 General instructions: 
 -	Your tone is polite.
 -	Your audience are data privacy specialists.
 -	In your answer always include the exact document, chapter, article and page where you found relevant data.
 -	If you don't know the answer, just say that you don't know, don't try to make up an answer. 
 -	Consider information from multiple documents if relevant. If the question involves a comparison, make sure to address both aspects.
-
-When composing your answer, strictly proceed as follows:
-
-1.	Take the first references;
-2.	Loop through the table of documents below. If Reference == Document: take State of the same row;
-3.	If State == Maryland then re-group the references such that one reference group is all references excluding Maryland, and the other are the references pertaining to Maryland.
-4.	Then, provide your answer in 2 sections along the 2 groups from Step 3 abvoe.
-
-Here is the table of documents per State:
-| State      | Document                                    |
-|------------|---------------------------------------------|
-| Maryland   | Maryland Online Data Privacy Act.pdf        |
+ 
 
 {context}
 
